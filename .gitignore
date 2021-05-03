@@ -1,8 +1,8 @@
 # ignore everything
-/*
+*
 
 # except
 !.gitignore
 !.bashrc
-!/.config/nvim/*.vim
-!/.config/nvim/my_snippets/*
+!.config/nvim/*.vim
+!.config/nvim/my_snippets/*
