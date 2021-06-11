@@ -3,7 +3,9 @@ diffferent configuration files that I use
 
 ## nvim
 neovim configurations
-location:  ~/.config/nvim
+
+location:  ~/.config/nvim 
+
 Plugin Manger used: VimPlug
 
 ## .bashrc
