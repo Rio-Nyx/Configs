@@ -19,3 +19,6 @@ let g:startify_custom_header = [
 "                              \'     ▕│    ████      ‾‾    ‾                 ',
 "                              \'     ▕│                                        ',
 "                              \'                 ‾                      ‾             ']
+
+ let g:startify_bookmarks = [ '~/.tmux.conf','~/.config/nvim/init.vim', '~/.bashrc','~/.config/nvim' ]
+
