@@ -1,0 +1,118 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.024  000.024: --- NVIM STARTING ---
+000.588  000.564: locale set
+001.128  000.539: inits 1
+001.154  000.027: window checked
+001.234  000.079: parsing arguments
+001.374  000.140: expanding arguments
+001.462  000.088: inits 2
+002.728  001.267: init highlight
+002.871  000.142: waiting for UI
+004.253  001.382: done waiting for UI
+004.315  000.062: initialized screen early for UI
+004.510  000.102  000.102: sourcing $VIM/sysinit.vim
+005.642  000.635  000.635: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+005.884  001.016  000.381: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+024.603  018.604  018.604: sourcing /usr/share/nvim/runtime/filetype.vim
+024.776  020.067  000.447: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+025.021  000.043  000.043: sourcing /usr/share/nvim/runtime/filetype.vim
+025.350  000.100  000.100: sourcing /usr/share/nvim/runtime/ftplugin.vim
+029.767  004.231  004.231: sourcing /home/rahul/.local/share/nvim/site/autoload/plug.vim
+034.660  001.149  001.149: sourcing /usr/share/nvim/runtime/ftoff.vim
+048.471  000.025  000.025: sourcing /home/rahul/.vim/plugged/ultisnips/ftdetect/snippets.vim
+048.652  011.328  011.303: sourcing /usr/share/nvim/runtime/filetype.vim
+048.754  000.012  000.012: sourcing /usr/share/nvim/runtime/ftplugin.vim
+048.874  000.037  000.037: sourcing /usr/share/nvim/runtime/indent.vim
+049.022  000.011  000.011: sourcing /usr/share/nvim/runtime/filetype.vim
+049.132  000.011  000.011: sourcing /usr/share/nvim/runtime/ftplugin.vim
+049.209  000.265  000.243: sourcing /home/rahul/.config/nvim/NerdCommenter.vim
+049.252  000.025  000.025: sourcing /home/rahul/.config/nvim/startify.vim
+049.283  000.016  000.016: sourcing /home/rahul/.config/nvim/UltiSnips.vim
+049.346  000.048  000.048: sourcing /home/rahul/.config/nvim/coc.vim
+049.386  000.016  000.016: sourcing /home/rahul/.config/nvim/functions/trailing-spaces.vim
+049.430  000.026  000.026: sourcing /home/rahul/.config/nvim/netrw.vim
+049.664  000.160  000.160: sourcing /usr/share/nvim/runtime/syntax/nosyntax.vim
+049.959  000.132  000.132: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+050.060  000.315  000.184: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+050.096  000.626  000.151: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+050.748  000.164  000.164: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+051.316  000.142  000.142: sourcing /usr/share/nvim/runtime/syntax/syncolor.vim
+051.471  000.084  000.084: sourcing /home/rahul/.vim/plugged/vim/autoload/dracula.vim
+054.795  004.662  004.272: sourcing /home/rahul/.vim/plugged/vim/colors/dracula.vim
+054.931  050.365  007.714: sourcing /home/rahul/.config/nvim/init.vim
+054.936  000.156: sourcing vimrc file(s)
+055.334  000.073  000.073: sourcing /home/rahul/.vim/plugged/ultisnips/autoload/UltiSnips/map_keys.vim
+055.413  000.281  000.208: sourcing /home/rahul/.vim/plugged/ultisnips/plugin/UltiSnips.vim
+055.525  000.038  000.038: sourcing /home/rahul/.vim/plugged/vim-snippets/plugin/vimsnippets.vim
+059.654  004.061  004.061: sourcing /home/rahul/.vim/plugged/nerdcommenter/plugin/NERD_commenter.vim
+059.841  000.108  000.108: sourcing /home/rahul/.vim/plugged/vim-startify/plugin/startify.vim
+060.142  000.099  000.099: sourcing /home/rahul/.vim/plugged/coc.nvim/autoload/coc/rpc.vim
+060.650  000.440  000.440: sourcing /home/rahul/.vim/plugged/coc.nvim/autoload/coc/util.vim
+061.014  000.170  000.170: sourcing /home/rahul/.vim/plugged/coc.nvim/autoload/coc/client.vim
+065.230  005.319  004.610: sourcing /home/rahul/.vim/plugged/coc.nvim/plugin/coc.vim
+067.807  000.019  000.019: sourcing /home/rahul/.vim/plugged/vim-devicons/autoload/devicons/plugins/startify.vim
+067.850  002.475  002.456: sourcing /home/rahul/.vim/plugged/vim-devicons/plugin/webdevicons.vim
+068.272  000.084  000.084: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/init.vim
+068.672  000.080  000.080: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/parts.vim
+068.896  000.016  000.016: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/formatter/short_path.vim
+070.357  000.149  000.149: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/util.vim
+070.451  002.501  002.172: sourcing /home/rahul/.vim/plugged/vim-airline/plugin/airline.vim
+071.193  000.609  000.609: sourcing /usr/share/nvim/site/plugin/fzf.vim
+071.649  000.197  000.197: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+071.698  000.012  000.012: sourcing /usr/share/nvim/runtime/plugin/health.vim
+071.791  000.069  000.069: sourcing /usr/share/nvim/runtime/plugin/man.vim
+072.369  000.239  000.239: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+072.425  000.613  000.373: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+072.588  000.139  000.139: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+073.042  000.428  000.428: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+073.520  000.163  000.163: sourcing /usr/share/nvim/runtime/autoload/remote/host.vim
+073.816  000.138  000.138: sourcing /usr/share/nvim/runtime/autoload/remote/define.vim
+073.901  000.647  000.345: sourcing /home/rahul/.local/share/nvim/rplugin.vim
+073.908  000.800  000.153: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+074.090  000.145  000.145: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+074.150  000.028  000.028: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+074.341  000.150  000.150: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+074.464  000.086  000.086: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+074.523  000.021  000.021: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+074.716  000.167  000.167: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+074.739  001.557: loading plugins
+074.840  000.101: loading packages
+075.087  000.115  000.115: sourcing /home/rahul/.vim/plugged/vim/after/plugin/dracula.vim
+075.282  000.108  000.108: sourcing /home/rahul/.vim/plugged/ultisnips/after/plugin/UltiSnips_after.vim
+075.289  000.226: loading after plugins
+075.306  000.018: inits 3
+078.038  002.732: reading ShaDa
+081.338  000.553  000.553: sourcing /usr/share/nvim/runtime/scripts.vim
+183.300  101.717  101.717: sourcing /usr/share/nvim/runtime/autoload/provider/clipboard.vim
+184.006  000.291  000.291: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions.vim
+184.200  000.057  000.057: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+184.437  000.162  000.162: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline.vim
+184.638  000.034  000.034: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+184.803  000.035  000.035: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/fzf.vim
+185.468  000.065  000.065: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/section.vim
+185.837  000.192  000.192: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/highlighter.vim
+186.224  000.968  000.712: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/term.vim
+186.539  000.101  000.101: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+187.958  000.071  000.071: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/coc.vim
+188.313  000.123  000.123: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+188.830  000.066  000.066: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/po.vim
+189.037  000.087  000.087: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+189.282  000.039  000.039: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+196.766  000.064  000.064: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/themes.vim
+198.120  001.656  001.592: sourcing /home/rahul/.vim/plugged/vim/autoload/airline/themes/dracula.vim
+229.937  000.172  000.172: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/builder.vim
+230.534  000.096  000.096: sourcing /home/rahul/.vim/plugged/vim-airline/autoload/airline/extensions/default.vim
+291.842  107.576: opening buffers
+291.979  000.137: BufEnter autocommands
+291.985  000.006: editing files in windows
+292.484  000.499: VimEnter autocommands
+292.491  000.007: UIEnter autocommands
+292.496  000.006: before starting main loop
+293.756  001.168  001.168: sourcing /home/rahul/.vim/plugged/coc.nvim/autoload/coc/float.vim
+299.324  005.660: first screen update
+299.331  000.007: --- NVIM STARTED ---
