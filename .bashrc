@@ -106,9 +106,7 @@ backup(){
 #	systemctl mask bluetooth
 #}
 
-#tasker(){
-#	python /home/rahul/Documents/projects/tasker/tasker_click.py $1 $2
-#}
+
 #========================================================================================================================
 
 # aliases
