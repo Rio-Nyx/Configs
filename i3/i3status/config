@@ -1,0 +1,83 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+        output_format = "i3bar"
+        colors = true
+        interval = 5
+        markup = pango
+        # seperator = " \\ "
+}
+
+# order += "ipv6"
+order += "wireless _first_"
+# order += "ethernet _first_"
+# order += "disk /"
+# order += "load"
+order += "cpu_usage"
+order += "memory"
+order += "battery all"
+order += "tztime local"
+
+wireless _first_ {
+        format_up = "W: (%quality at %essid) %ip"
+        format_down = "W: down"
+}
+
+ethernet _first_ {
+        format_up = "E: %ip (%speed)"
+        format_down = "E: down"
+}
+
+battery all {
+        format = "<span background='#ff5555'> ⚆ </span><span background='#e5e9f0'>%status %percentage %emptytime </span>"
+        format_down = "No battery"
+        status_chr = "⚡ CHR"
+        status_bat = "🔋 BAT"
+        status_unk = "? UNK"
+        status_full = "☻ FULL"
+        color_degraded = "#002200"
+        color_bad = "#002200"
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 20
+}
+
+disk "/" {
+        format = "%avail"
+}
+
+load {
+        format = "<span background='#ff5555'> ⚆ </span><span background='#e5e9f0'>%1min</span>"
+}
+
+# memory {
+#         format = "%used | %available"
+#         threshold_degraded = "1G"
+#         format_degraded = "MEMORY < %available"
+# }
+
+memory {
+        format = "<span background='#f1fa8c'> ⚆ </span><span background='#e5e9f0'>used:%used/%total</span>"
+        threshold_degraded = "20%"
+        format_degraded = "MEMORY: %free"
+}
+
+tztime local {
+        format = "<span background='#ff79a6'> ⚆ </span><span background='#e5e9f0'>%time</span>"
+        format_time = "%a %-d %b %H:%M"
+}
+
+cpu_usage {
+        color_good = "#002200"
+        color_degraded = "#AAFF00"
+        format = "<span background='#8be9fd'> ⚆ </span><span background='#e5e9f0'> all: %usage </span>" # CPU_0: %cpu0 CPU_1: %cpu1"
+        max_threshold = "75"
+        format_above_threshold = "Warning above threshold: %usage"
+        degraded_threshold = "25"
+        format_above_degraded_threshold = "Warning above degraded threshold: %usage"
+}
