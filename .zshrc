@@ -232,10 +232,6 @@ song(){
     yt-dlp -x --embed-thumbnail --audio-format mp3 "ytsearch:$1 song"
 }
 
-rio(){
-  echo "hola, mi amigo! No estoy completa todavía\n¿Cómo estuvo su día?"
-}
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
